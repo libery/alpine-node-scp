@@ -12,5 +12,3 @@ RUN echo "Asia/shanghai" >> /etc/timezone
 RUN apk add curl
 RUN apk add openssh-client
 RUN apk add busybox-extras
-
-ENTRYPOINT ["top"]
